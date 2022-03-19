@@ -5,29 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Luciano Oliveira | Portfólio</title>
 </head>
 
 <body>
     <header class="header">
         <img src="img/marca.svg" alt="Logo lobo">
-        <nav class="header_nav">
-            <ul><a href="#experiencia">Experiência</a></ul>
-            <ul><a href="#formacao">Formação</a></ul>
-            <ul><a href="#contato">Contato</a></ul>
+        <nav>
+            <ul class="header_nav">
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main class="apresentacao">
-        <img src="img/perfil.jpg" alt="Lobo cinza">
-        <h1 class="apresentacao_title">Desenvolvedor <br>
-            Front End & <br>
-            UX/UI Designer
-        </h1>
-        <p>localizado em Maringá/PR <img src="https://img.icons8.com/bubbles/50/000000/city.png" /> </p>
+    <main class="container apresentacao">
+        <img src="img/foto_empresa_quadrada.png" alt="Lobo cinza">
+        <div>
+            <h1>
+                Desenvolvedor <br>
+                Front End & <br>
+                UX/UI Designer
+            </h1>
+            <p>localizado em Maringá/PR <img src="https://img.icons8.com/bubbles/50/000000/city.png" /> </p>
+        </div>
     </main>
 
-    <section id="experiencia" class="experiencia">
+    <section id="experiencia" class="container experiencia">
         <h2 class="section_subtitle">experiência</h2>
         <p class="experiencia_descricao">
             Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong>, <strong>CSS</strong>
@@ -82,7 +88,7 @@
         </ul>
     </section>
 
-    <section id="formacao" class="formacao">
+    <section id="formacao" class="container formacao">
         <p>
             Minha mais recente experiência acadêmica foi o<strong>mestrado</strong> 🎓 que fiz no exterior em <strong>UX
                 Design</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.
@@ -120,7 +126,7 @@
         </ul>
     </section>
 </body>
-<footer>
+<footer class="container">
     <p>Estou disponível para novos projetos no momento. Entre em contato comigo e marcamos uma conversa 👋</p>
     <div>
         <a href="mailto:lobo@email.com">lobo@email.com</a>

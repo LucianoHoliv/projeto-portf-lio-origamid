@@ -1,0 +1,22 @@
+.apresentacao {
+    align-items: center;
+}
+
+.apresentacao img {
+    border-radius: 50%;
+}
+
+.apresentacao h1 {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.apresentacao p {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+.apresentacao p img {
+    margin-left: 10px;
+}
