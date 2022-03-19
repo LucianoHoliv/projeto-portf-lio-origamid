@@ -1,0 +1,16 @@
+.formacao {
+  background: #141414;
+  padding: 120px 20px;
+}
+
+.formacao h2 {
+  color: #000000;
+}
+
+.formacao p {
+  color: #a3a3a3;
+}
+
+.formacao strong {
+  color: #fff;
+}

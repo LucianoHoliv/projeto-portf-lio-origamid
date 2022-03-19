@@ -1,0 +1,59 @@
+.experiencia {
+  padding: 120px 20px 60px;
+}
+
+.experiencia h2 {
+  color: #e0e0e0;
+}
+
+.experiencia > p,
+.empresa {
+  color: #525252;
+}
+
+.experiencia strong {
+  color: #000;
+}
+
+.experiencia_empresas {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.empresa {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 4px;
+  gap: 0 20px;
+}
+
+.empresa_nome,
+.empresa_cargo {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: bold;
+}
+
+.empresa_descricao, .empresa_tecnologias {
+    font-size: .875rem ;
+}
+
+.empresa_tecnologias {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.empresa_tecnologias li {
+    display: block;
+    padding: .5rem .7rem;
+    background: #fff;
+    border-radius: 4px;
+    color: #000;
+}

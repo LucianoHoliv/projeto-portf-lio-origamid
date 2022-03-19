@@ -1,5 +1,6 @@
 .apresentacao {
     align-items: center;
+    padding: 40px 20px;
 }
 
 .apresentacao img {
@@ -7,16 +8,16 @@
 }
 
 .apresentacao h1 {
-    font-size: 4.5rem;
+    font-size: 4rem;
     line-height: 1;
 }
 
 .apresentacao p {
     display: flex;
     align-items: center;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     margin-top: 30px;
 }
 .apresentacao p img {
-    margin-left: 10px;
+    margin-left: 5px;
 }
