@@ -1,0 +1,46 @@
+.footer {
+  background: #000;
+}
+
+.footer_container {
+  position: relative;
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 150px 20px 60px 20px;
+  align-items: center;
+}
+
+.footer_container::after {
+  position: absolute;
+  content: url(../img/detalhe.svg);
+  top: -60px;
+}
+
+.mensagem_footer {
+  font-size: 1.5rem;
+  width: 40ch;
+  justify-content: center;
+}
+
+.contato {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 2.25rem;
+  font-weight: bold;
+}
+
+.contato a {
+  color: #fff;
+}
+
+.copy {
+  grid-column: span 2;
+  color: #ccc;
+  font-size: 1.125rem;
+  align-self: end;
+}
