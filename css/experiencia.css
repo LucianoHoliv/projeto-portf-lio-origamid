@@ -82,3 +82,42 @@
   border-radius: 4px;
   color: #000;
 }
+
+@media (max-width: 800px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    padding: 30px 20px;
+  }
+
+  .experiencia h2 {
+    font-size: 2rem;
+    color: #000;
+    word-break: normal;
+    margin-bottom: 30px;
+  }
+
+  .empresa_ano {
+    position: initial;
+    grid-row: 5;
+    margin-top: 15px;
+    text-align: start;
+  }
+}
+
+@media (max-width: 500px) {
+  .experiencia h2 {
+    font-size: 1.8rem;
+  }
+
+  .section_descricao {
+    font-size: 1.4rem;
+  }
+
+  .empresa {
+    grid-template-columns: 1fr;
+  }
+
+  .empresa_tecnologias {
+    margin-top: 10px;
+  }
+}

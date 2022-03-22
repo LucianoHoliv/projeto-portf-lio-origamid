@@ -21,3 +21,48 @@
 .apresentacao p img {
     margin-left: 5px;
 }
+
+@media (max-width: 1000px) {
+    .apresentacao h1 {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .apresentacao {
+        gap: 0 3rem;
+    }
+    .apresentacao h1 {
+        font-size: 2rem;
+    }
+
+    .apresentacao p {
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .apresentacao h1 {
+        font-size: 1.6rem;
+    }
+    
+    .apresentacao p {
+        font-size: 1.3rem;
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .apresentacao {
+        grid-template-columns: 1fr;
+    }
+
+    .header_foto {
+        display: none;
+    }
+    
+    .apresentacao h1 {
+        font-size: 2rem;
+    }
+}
