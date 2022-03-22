@@ -39,21 +39,22 @@
   font-weight: bold;
 }
 
-.empresa_descricao, .empresa_tecnologias {
-    font-size: .875rem ;
+.empresa_descricao,
+.empresa_tecnologias {
+  font-size: 0.875rem;
 }
 
 .empresa_tecnologias {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
 }
 
 .empresa_tecnologias li {
-    display: block;
-    padding: .5rem .7rem;
-    background: #fff;
-    border-radius: 4px;
-    color: #000;
+  display: block;
+  padding: 0.5rem 0.7rem;
+  background: #fff;
+  border-radius: 4px;
+  color: #000;
 }
