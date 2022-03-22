@@ -33,6 +33,7 @@ img {
   grid-row: span 10;
   font-size: 8rem;
   max-width: 4ch;
+  line-height: 1;
   text-transform: uppercase;
   word-break: break-all;
 }
