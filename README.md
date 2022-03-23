@@ -2,6 +2,8 @@
 Este projeto foi realizado no curso de HTML e CSS da Origamid. 
 Nele coloco em prática tudo aquilo que venho aprendendo no curso.
 
+OBS: As informações contidas neste projeto não são reais. Este não é uma página web que está sendo utilizada como portfólio.
+
 
 <h2>Ferramentas</h2>
     <ul>
