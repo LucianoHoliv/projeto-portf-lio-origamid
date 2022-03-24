@@ -19,7 +19,10 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: 20px;
+}
+
+.experiencia_empresas li + li {
+  margin-top: 20px;
 }
 
 .empresa {
