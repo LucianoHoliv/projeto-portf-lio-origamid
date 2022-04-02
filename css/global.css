@@ -8,6 +8,10 @@
   font-family: 'Fira Sans', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
