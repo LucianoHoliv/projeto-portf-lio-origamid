@@ -30,14 +30,21 @@
 
 @media (max-width: 800px) {
   .apresentacao {
-    gap: 0 3rem;
-  }
-  .apresentacao h1 {
-    font-size: 2rem;
+    gap: 0 4rem;
   }
 
   .apresentacao p {
     font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .apresentacao {
+    gap: 0 4rem;
+  }
+
+  .apresentacao h1 {
+    font-size: 2rem;
   }
 }
 
