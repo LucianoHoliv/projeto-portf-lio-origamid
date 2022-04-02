@@ -41,7 +41,7 @@ margin: 10px;
   position: relative;
   color: #fff;
   font-size: 1.125rem;
-  margin-bottom: 40px;
+  margin: 15px 0 40px 0;
 }
 
 .formacao_item h3::before {
