@@ -1,4 +1,4 @@
-# Projeto portfólio
+# Projeto portfólio FAKE
 Este projeto foi realizado no curso de HTML e CSS da Origamid. 
 Nele coloco em prática tudo aquilo que venho aprendendo no curso.
 
